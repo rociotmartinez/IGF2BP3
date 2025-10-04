@@ -99,7 +99,7 @@ vsd <- vst(dds, blind=FALSE)
 plotPCA(vsd, c("fraction", 'Sample_name'))
 #saved image in folder plots, PCA_total_donors
 
-### This PCA plot tells us that free_mRNP is quite different to input and polysome. We make 3 analyses, one per fraction
+### We make 3 analyses, one per fraction
 
 total_files <- list.files()
 #want to convert data type to a matrix from 2D...use the function as. for it to happen
